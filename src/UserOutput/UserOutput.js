@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const userOutput = (props) => {
     return (
         <div>
-            <p>{props}</p>
+            <p onClick={props.click}> {props.name} </p>
         </div>
     )
 }
